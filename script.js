@@ -1,6 +1,10 @@
-let count = 0;
 
-function increment(){
-    count = count + 1;
-    console.log(count);
+let count = 0;
+let count_el = document.getElementById("count")
+
+function Increment(){
+    count = count + 1
+    count_el.innerText = count
+    console.log(count) 
+
 }
