@@ -22,4 +22,16 @@ button {
 #pre {
     font-size: 15px;
     color: red;
+    margin-top: 17px;
+}
+
+#welcome-el {
+    font-size: 40px;
+    color: aquamarine;
+}
+
+#cal {
+    display: flex;
+    justify-content: center;
+    margin: 7px;
 }

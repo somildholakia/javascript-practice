@@ -15,13 +15,14 @@ function save(){
     console.log("save number is:",save_number);
     count = 0;
     lr_count.innerText = 0;
-    pre.innerText = ("-" + save_number);
+    pre.innerText = ("    " + save_number + "-" + "    " + pre.innerText );
 
 }
 
+let welcome_el = document.getElementById("welcome-el");
 
-let namee = "somil";
-let greeting = "Hi,my name is ";
-let myGreeting = (greeting + namee);
+let myName = "somil";
+let myGreeting = "Welcome back ";
 
-console.log(myGreeting);
+welcome_el.innerText = myGreeting + myName;
+
