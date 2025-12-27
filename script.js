@@ -16,5 +16,5 @@ function save(){
     console.log("The saved number is:" + saved);
     count =0;
     count_el.innerText = count;
-    pre.innerText = (saved +  "-" +  pre.innerText);
+    pre.textContent = (saved +  " - " +  pre.innerText);
 }
