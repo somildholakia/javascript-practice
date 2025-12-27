@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2> Count Entered:</h2>
-    <h4 id="hh"> 0</h4>
-    <button onclick="Increment()"> INCREMENT</button>
+    <div>
+        <h2> Number of people Entered: </h2>
+        <h3 id="Number"> 0 </h3>
+        <button id="increment-btn" onclick="increment()"> INCREMENT </button>
 
-    <button id="save-btn" onclick="save()">SAVE</button>
-    
-  
-    <div id="cal"> 
-        <p> Previous CAlculations:  &ensp;</p>
-    <h5 id="pre">       </h5>
-        </div>
-    <P id="welcome-el"> Hi</P>
+        <button id="save-btn" onclick="save()"> SAVE </button>
+
+        <div class="h2"> 
+        <p id="text"> Last calculation:   &ensp;</p>
+        <P id="previous">  </P>
+            </div>
+
+    </div>
 
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

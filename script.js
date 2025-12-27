@@ -1,28 +1,20 @@
-
 let count = 0;
-let lr_count = document.getElementById("hh");
-let save_number = 0;
-let pre = document.getElementById("pre");
+let saved = 0;
 
-function Increment(){
+let count_el = document.getElementById("Number");
+let pre = document.getElementById("previous");
+
+function increment(){
     count += 1;
-    lr_count.innerText = count;
+    count_el.innerText = count;
     console.log(count);
 }
 
+
 function save(){
-    save_number = count;
-    console.log("save number is:",save_number);
-    count = 0;
-    lr_count.innerText = 0;
-    pre.innerText = ("    " + save_number + "-" + "    " + pre.innerText );
-
+    saved = count;
+    console.log("The saved number is:" + saved);
+    count =0;
+    count_el.innerText = count;
+    pre.innerText = (saved +  "-" +  pre.innerText);
 }
-
-let welcome_el = document.getElementById("welcome-el");
-
-let myName = "somil";
-let myGreeting = "Welcome back ";
-
-welcome_el.innerText = myGreeting + myName;
-

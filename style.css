@@ -1,37 +1,42 @@
 body {
-    margin: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-button {
+h2 {
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#Number {
     font-size: 40px;
-    background-color: darkred;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+
 }
 
-#hh {
-    font-size: 50px;
-    color: aqua;
+#increment-btn {
+    font-size: 40px;
+    color: red;
+    margin-right: 20px;
+}
+
+#previous {
+    font-size: 30px;
+    color: teal;
 }
 
 #save-btn {
     font-size: 30px;
-    background-color: teal;
-    margin-left: 30px;
+    color: cadetblue;
 }
 
-#pre {
-    font-size: 15px;
-    color: red;
-    margin-top: 17px;
+#text {
+    font-size: 30px;
+    color: teal;
 }
 
-#welcome-el {
-    font-size: 40px;
-    color: aquamarine;
-}
-
-#cal {
+.h2 {
     display: flex;
-    justify-content: center;
-    margin: 7px;
 }
